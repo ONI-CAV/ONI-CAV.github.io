@@ -50,7 +50,7 @@
   opacity:0.75;
 }
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 html {
@@ -58,7 +58,7 @@ html {
 }
 
 .blurple {
-  color: #9f5afd;
+  color: #132d60;
 }
 
 .bg-base {
@@ -495,7 +495,7 @@ button:hover svg {
 /*Other*/
 
 .unique-color-dark {
-  background-color: #9f5afd !important;
+  background-color: #132d60 !important;
 }
 
 .bg-light {
