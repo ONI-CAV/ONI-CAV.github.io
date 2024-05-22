@@ -491,10 +491,10 @@
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 0.5s 1.25s forwards;
+		-webkit-animation: header 0.5s 1.25s forwards;
+		-ms-animation: header 0.5s 1.25s forwards;
+		animation: header 0.5s 1.25s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -520,13 +520,13 @@
 			line-height: 1em;
 		}
 		#header h2 {
-			font-size: 3.35em;
-			font-weight: 700;
+			font-size: 3.95em;
+			font-weight: 800;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
 		#header h3 {
-			font-size: 2.35em;
+			font-size: 3.35em;
 			font-weight: 500;
 			letter-spacing: -0.035em;
 			line-height: 1em;
