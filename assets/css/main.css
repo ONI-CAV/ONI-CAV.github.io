@@ -80,10 +80,10 @@
 		}
 
 	a {
-		-moz-transition: border-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out;
+		-moz-transition: border-color 0.1s ease-in-out;
+		-webkit-transition: border-color 0.1s ease-in-out;
+		-ms-transition: border-color 0.1s ease-in-out;
+		transition: border-color 0.1s ease-in-out;
 		border-bottom: dotted 1px;
 		color: inherit;
 		outline: 0;
@@ -157,10 +157,10 @@
 	}
 
 	#wrapper {
-		-moz-animation: wrapper 3s forwards;
-		-webkit-animation: wrapper 3s forwards;
-		-ms-animation: wrapper 3s forwards;
-		animation: wrapper 3s forwards;
+		-moz-animation: wrapper 1s forwards;
+		-webkit-animation: wrapper 1s forwards;
+		-ms-animation: wrapper 1s forwards;
+		animation: wrapper 1s forwards;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #000000 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -272,7 +272,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.7;
 		}
 	}
 
@@ -282,7 +282,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.7;
 		}
 	}
 
@@ -292,7 +292,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.7;
 		}
 	}
 
@@ -302,15 +302,15 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.7;
 		}
 	}
 
 	#overlay {
-		-moz-animation: overlay 1.5s 1.5s forwards;
-		-webkit-animation: overlay 1.5s 1.5s forwards;
-		-ms-animation: overlay 1.5s 1.5s forwards;
-		animation: overlay 1.5s 1.5s forwards;
+		-moz-animation: overlay 1s 1s forwards;
+		-webkit-animation: overlay 1s 1s forwards;
+		-ms-animation: overlay 1s 1s forwards;
+		animation: overlay 1s 1s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
@@ -514,8 +514,20 @@
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 4.6em;
 			font-weight: 900;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+		}
+		#header h2 {
+			font-size: 3.35em;
+			font-weight: 700;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+		}
+		#header h3 {
+			font-size: 2.35em;
+			font-weight: 500;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
