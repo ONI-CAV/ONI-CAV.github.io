@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url('https://fonts.cdnfonts.com/css/request-coffee');
+@import url('https://fonts.cdnfonts.com/css/titillium');
 
 .footer-clean {
   padding:50px 0;
@@ -50,7 +51,7 @@
   opacity:0.75;
 }
 * {
-  font-family: "Calibri", sans-serif;
+  font-family: "titillium", sans-serif;
 }
 
 html {
@@ -153,7 +154,7 @@ nav,
 
 .navbar-item.nav-dark,
 .navbar-link.nav-dark {
-  color: #363636 !important;
+  color: #2b65af !important;
 }
 
 .navbar-item,
@@ -224,7 +225,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #5d71b9;
+  background: #2b65af;
 }
 
 .title.lined {
@@ -251,7 +252,7 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #7289da;
+  background-color: #2b65af;
   border-color: transparent;
   color: #fff;
 }
@@ -311,13 +312,13 @@ nav.nav-w {
 }
 
 .cards .blurple {
-  background-color: #7289da;
+  background-color: #2b65af;
   margin-left: auto;
   margin-right: auto;
 }
 
 .cards .blue {
-  background-color: #3b82f6;
+  background-color: #2b65af;
   margin-left: auto;
   margin-right: auto;
 }
@@ -360,7 +361,7 @@ button {
  align-items: center;
  padding: 1em;
  border: 0px solid transparent;
- background-color: rgba(43,101,175,0.50);
+ background-color: rgba(43,101,175,1);
  border-radius: 1.25em;
  transition: all 0.2s linear;
 }
