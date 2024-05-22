@@ -200,6 +200,11 @@ nav.nav-w {
   margin-right: auto;
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .line {
   background: #00d1b2;
   background: #00d1b2;
@@ -219,7 +224,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #7289da;
+  background: #5d71b9;
 }
 
 .title.lined {
@@ -355,7 +360,7 @@ button {
  align-items: center;
  padding: 1em;
  border: 0px solid transparent;
- background-color: rgba(100,77,237,0.50);
+ background-color: rgba(43,101,175,0.50);
  border-radius: 1.25em;
  transition: all 0.2s linear;
 }
@@ -495,7 +500,7 @@ button:hover svg {
 /*Other*/
 
 .unique-color-dark {
-  background-color: #132d60 !important;
+  background-color: #2b65af !important;
 }
 
 .bg-light {
@@ -507,5 +512,5 @@ button:hover svg {
 }
 
 .custom-color {
-  background-color: #7289DA !important
+  background-color: #2b65af !important
 }
