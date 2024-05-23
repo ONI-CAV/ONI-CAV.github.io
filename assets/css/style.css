@@ -7,6 +7,29 @@
   color:#f8f9fa;
 }
 
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 20px; /* Add some padding to the left for space */
+}
+
+ul li::before {
+  content: "\2022"; /* Unicode character for round bullet */
+  color: #333; /* Color of the bullet */
+  font-size: 1.2em; /* Adjust size of the bullet as needed */
+  margin-right: 10px; /* Add some space between bullet and text */
+}
+
+.has-image-half {
+  width: 50vw; /* Set width to 50% of the viewport width */
+  max-height: 500px; /* Set a maximum height value */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-header {
+  width: 100%; /* Ensure the image header takes up the full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .footer-clean h3 {
   margin-top:0;
   margin-bottom:12px;
@@ -206,12 +229,28 @@ nav.nav-w {
   justify-content: space-between;
 }
 
+.portrait-container {
+  flex: 1;
+  padding: 20px;
+}
+
+
 .line {
   background: #00d1b2;
   background: #00d1b2;
   width: 200px;
   height: 5px;
 }
+
+
+
+.line-long {
+  background: #2b65af;
+  background: #2b65af;
+  width: 300px;
+  height: 5px;
+}
+
 
 .line2 {
   background: #00d1b2;
